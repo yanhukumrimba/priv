@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
-# Created By Dapunta Fixed By Ramdhan R
+# Created By Dapunta,Fixed By Ramdhan R
+# Cie Ada Yang Mau Recode Nih Ye
 
 import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json
 from random import randint
@@ -37,6 +38,7 @@ def banner():
   / _ \(_)__ ___ _  ___  ___  ___/ /\x1b[0;36mRamdhan
 \x1b[0;35m/ // / / _ `/  ' \/ _ \/ _ \/ _  /\x1b[0;36mRamadhian 
 /____/_/\_,_/_/_/_/\___/_//_/\_,_/\x1b[0;36mPREMIER""")
+Premium Tool For Crack Account FB
 
 host="https://mbasic.facebook.com"
 ips=None
@@ -124,7 +126,7 @@ def country():
     choose_country()
     
 def choose_country():
-    cc = input("\n%s[%s•%s] %sChoose : "%(k,p,k,p))
+    cc = input("\n%s[%s•%s] %sChoose : "%(u,o,u,o))
     if cc in[""]:
         print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     elif cc in["1","01"]:
@@ -307,25 +309,25 @@ def menu():
         negara = "USA"
     os.system("clear")
     banner()
-    print((k+"\n[ "+o+"Welcome "+a["name"]+k+" ]"+p))
-    print((k+"\n["+o+"•"+u+"]"+o+" Your ID : "+id))
-    print((k+"["+o+"•"+u+"]"+o+" Your IP : "+ip))
-    print((k+"["+o+"•"+u+"]"+o+" Status  : "+h+"Premium"+p))
-    print((k+"["+o+"•"+u+"]"+o+" Joined  : "+durasi))
-    print((k+"["+o+"•"+u+"]"+o+" Crack   : "+negara))
-    print((k+"\n["+o+"1"+u+"]"+u+" Crack ID From Public/Friends"))
-    print((k+"["+o+"2"+u+"]"+o+" Crack ID From Followers"))
-    print((k+"["+o+"3"+u+"]"+u+" Crack ID From Likes"))
-    print((k+"["+o+"4"+u+"]"+o+" Crack By Phone Number"))
-    print((k+"["+o+"5"+u+"]"+u+" Crack By Email"))
-    print((k+"["+o+"6"+u+"]"+o+" Get Data Target"))
-    print((k+"["+o+"7"+u+"]"+u+" Result Crack"))
-    print((k+"["+o+"8"+u+"]"+o+" User Agent"))
-    print((k+"["+o+"0"+u+"]"+m+" Logout"))
+    print((u+"\n[ "+h+"Welcome "+a["name"]+k+" ]"+p))
+    print((u+"\n["+o+"•"+u+"]"+o+" Your ID : "+id))
+    print((u+"["+o+"•"+u+"]"+o+" Your IP : "+ip))
+    print((u+"["+o+"•"+u+"]"+o+" Status  : "+h+"Premium"+p))
+    print((u+"["+o+"•"+u+"]"+o+" Joined  : "+durasi))
+    print((u+"["+o+"•"+u+"]"+o+" Crack   : "+negara))
+    print((u+"\n["+o+"1"+u+"]"+u+" Crack ID From Public/Friends"))
+    print((u+"["+o+"2"+u+"]"+o+" Crack ID From Followers"))
+    print((u+"["+o+"3"+u+"]"+u+" Crack ID From Likes"))
+    print((u+"["+o+"4"+u+"]"+o+" Crack By Phone Number"))
+    print((u+"["+o+"5"+u+"]"+u+" Crack By Email"))
+    print((u+"["+o+"6"+u+"]"+o+" Get Data Target"))
+    print((u+"["+o+"7"+u+"]"+u+" Result Crack"))
+    print((u+"["+o+"8"+u+"]"+o+" User Agent"))
+    print((u+"["+o+"0"+u+"]"+m+" Logout"))
     choose_menu()
 
 def choose_menu():
-	r=input(k+"\n["+p+"•"+k+"]"+p+" Choose : ")
+	r=input(u+"\n["+o+"•"+u+"]"+u+" Choose : ")
 	if r=="":
 		print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
 		menu()
@@ -357,12 +359,12 @@ def choose_menu():
 		menu()	
 
 def pilihcrack(file):
-  print((k+"\n["+p+"1"+k+"]"+p+" Api ("+k+"Fast"+p+")"))
-  print((k+"["+p+"2"+k+"]"+p+" Api + TTL ("+k+"Fast"+p+")"))
-  print((k+"["+p+"3"+k+"]"+p+" Mbasic ("+k+"Medium"+p+")("+h+"Recommended"+p+")"))
-  print((k+"["+p+"4"+k+"]"+p+" Mbasic + TTL ("+k+"Slow"+p+")"))
-  print((k+"["+p+"5"+k+"]"+p+" Free Facebook ("+k+"Super Slow"+p+")"))
-  krah=input(k+"\n["+p+"•"+k+"]"+p+" Choose : ")
+  print((u+"\n["+o+"1"+u+"]"+p+" Api ("+k+"Fast"+p+")"))
+  print((u+"["+o+"2"+o+"]"+p+" Api + TTL ("+k+"Fast"+p+")"))
+  print((u+"["+o+"3"+u+"]"+p+" Mbasic ("+k+"Medium"+p+")("+h+"Recommended"+p+")"))
+  print((u+"["+o+"4"+o+"]"+p+" Mbasic + TTL ("+k+"Slow"+p+")"))
+  print((u+"["+o+"5"+u+"]"+p+" Free Facebook ("+k+"Super Slow"+p+")"))
+  krah=input(u+"\n["+o+"•"+u+"]"+p+" Choose : ")
   if krah in[""]:
     print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
     pilihcrack(file)
