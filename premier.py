@@ -33,10 +33,10 @@ else:
 ### HEADERS ###
 
 def banner():
-    print("""\x1b[0;36m   ___  _                         __
-  / _ \(_)__ ___ _  ___  ___  ___/ /PREMIER
- / // / / _ `/  ' \/ _ \/ _ \/ _  /Created By 
-/____/_/\_,_/_/_/_/\___/_//_/\_,_/ Ramdhan R""")
+    print("""\x1b[0;35m   ___  _                         __
+  / _ \(_)__ ___ _  ___  ___  ___/ /\x1b[0;36mPREMIER
+ / // / / _ `/  ' \/ _ \/ _ \/ _  /\x1b[0;36mCreated By 
+/____/_/\_,_/_/_/_/\___/_//_/\_,_/\x1b[0;36mRamdhan R""")
 
 host="https://mbasic.facebook.com"
 ips=None
@@ -307,21 +307,21 @@ def menu():
         negara = "USA"
     os.system("clear")
     banner()
-    print((k+"\n[ "+p+"Welcome "+a["name"]+k+" ]"+p))
-    print((k+"\n["+p+"•"+k+"]"+p+" Your ID : "+id))
-    print((k+"["+p+"•"+k+"]"+p+" Your IP : "+ip))
-    print((k+"["+p+"•"+k+"]"+p+" Status  : "+h+"Premium"+p))
-    print((k+"["+p+"•"+k+"]"+p+" Joined  : "+durasi))
-    print((k+"["+p+"•"+k+"]"+p+" Crack   : "+negara))
-    print((k+"\n["+p+"1"+k+"]"+p+" Crack ID From Public/Friends"))
-    print((k+"["+p+"2"+k+"]"+p+" Crack ID From Followers"))
-    print((k+"["+p+"3"+k+"]"+p+" Crack ID From Likes"))
-    print((k+"["+p+"4"+k+"]"+p+" Crack By Phone Number"))
-    print((k+"["+p+"5"+k+"]"+p+" Crack By Email"))
-    print((k+"["+p+"6"+k+"]"+p+" Get Data Target"))
-    print((k+"["+p+"7"+k+"]"+p+" Result Crack"))
-    print((k+"["+p+"8"+k+"]"+p+" User Agent"))
-    print((k+"["+p+"0"+k+"]"+p+" Logout"))
+    print((k+"\n[ "+h+"Welcome "+a["name"]+k+" ]"+p))
+    print((k+"\n["+h+"•"+k+"]"+o+" Your ID : "+id))
+    print((k+"["+h+"•"+k+"]"+o+" Your IP : "+ip))
+    print((k+"["+h+"•"+k+"]"+o+" Status  : "+h+"Premium"+p))
+    print((k+"["+h+"•"+k+"]"+o+" Joined  : "+durasi))
+    print((k+"["+h+"•"+k+"]"+o+" Crack   : "+negara))
+    print((k+"\n["+h+"1"+k+"]"+u+" Crack ID From Public/Friends"))
+    print((k+"["+h+"2"+k+"]"+o+" Crack ID From Followers"))
+    print((k+"["+h+"3"+k+"]"+u+" Crack ID From Likes"))
+    print((k+"["+h+"4"+k+"]"+o+" Crack By Phone Number"))
+    print((k+"["+h+"5"+k+"]"+u+" Crack By Email"))
+    print((k+"["+h+"6"+k+"]"+o+" Get Data Target"))
+    print((k+"["+h+"7"+k+"]"+u+" Result Crack"))
+    print((k+"["+h+"8"+k+"]"+o+" User Agent"))
+    print((k+"["+h+"0"+k+"]"+m+" Logout"))
     choose_menu()
 
 def choose_menu():
