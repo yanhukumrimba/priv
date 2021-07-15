@@ -34,9 +34,9 @@ else:
 
 def banner():
     print("""\x1b[0;37m   ___  _                         __
-  / _ \(_)__ ___ _  ___  ___  ___/ /|Premier
- / // / / _ `/  ' \/ _ \/ _ \/ _  / |Created By 
-/____/_/\_,_/_/_/_/\___/_//_/\_,_/  |Ramdhan R""")
+  / _ \(_)__ ___ _  ___  ___  ___/ /PREMIER
+ / // / / _ `/  ' \/ _ \/ _ \/ _  /Created By 
+/____/_/\_,_/_/_/_/\___/_//_/\_,_/ Ramdhan R""")
 
 host="https://mbasic.facebook.com"
 ips=None
