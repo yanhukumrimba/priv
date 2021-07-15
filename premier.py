@@ -34,10 +34,10 @@ else:
 ### HEADERS ###
 
 def banner():
-    print("""\x1b[0;35m   ___  _                         __
+    print("""\x1b[0;35mMulti Brute Force   ___  _                         __
   / _ \(_)__ ___ _  ___  ___  ___/ /\x1b[0;36mRamdhan
 \x1b[0;35m/ // / / _ `/  ' \/ _ \/ _ \/ _  /\x1b[0;36mRamadhian 
-/____/_/\_,_/_/_/_/\___/_//_/\_,_/\x1b[0;36mPREMIER""")
+/____/_/\_,_/_/_/_/\___/_//_/\_,_/\x1b[0;36mPrivate""")
 
 host="https://mbasic.facebook.com"
 ips=None
