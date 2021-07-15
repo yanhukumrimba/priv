@@ -38,7 +38,6 @@ def banner():
   / _ \(_)__ ___ _  ___  ___  ___/ /\x1b[0;36mRamdhan
 \x1b[0;35m/ // / / _ `/  ' \/ _ \/ _ \/ _  /\x1b[0;36mRamadhian 
 /____/_/\_,_/_/_/_/\___/_//_/\_,_/\x1b[0;36mPREMIER""")
-Premium Tool For Crack Account FB
 
 host="https://mbasic.facebook.com"
 ips=None
