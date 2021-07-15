@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+B#!/usr/bin/python3
 #-*-coding:utf-8-*-
 # Created By Dapunta,Fixed By Ramdhan R
 # Cie Ada Yang Mau Recode Nih Ye
@@ -117,15 +117,15 @@ def gets_dict_cookies(cookies):
 def country():
     os.system("clear")
     banner()
-    print("\n%s[%s Choose Country %s]\n"%(u,o,u))
-    print("%s[%s1%s] %sIndonesia"%(u,o,u,o))
-    print("%s[%s2%s] %sBangladesh/India"%(u,o,u,o))
-    print("%s[%s3%s] %sPakistan"%(u,o,u,o))
-    print("%s[%s4%s] %sUSA"%(u,o,u,o))
+    print("\n%s[%s Choose Country %s]\n"%(m,k,m))
+    print("%s[%s1%s] %sIndonesia"%(k,m,k,m))
+    print("%s[%s2%s] %sBangladesh/India"%(k,m,k,k))
+    print("%s[%s3%s] %sPakistan"%(k,m,k,h))
+    print("%s[%s4%s] %sUSA"%(k,m,k,o))
     choose_country()
     
 def choose_country():
-    cc = input("\n%s[%s•%s] %sChoose : "%(u,o,u,o))
+    cc = input("\n%s[%s•%s] %sChoose : "%(k,m,k,p))
     if cc in[""]:
         print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     elif cc in["1","01"]:
@@ -314,15 +314,15 @@ def menu():
     print((u+"["+o+"•"+u+"]"+p+" Status  : "+h+"Premium"+p))
     print((u+"["+o+"•"+u+"]"+p+" Joined  : "+durasi))
     print((u+"["+o+"•"+u+"]"+p+" Crack   : "+negara))
-    print((k+"\n["+p+"1"+k+"]"+u+" Crack ID From Public/Friends"))
-    print((k+"["+p+"2"+k+"]"+o+" Crack ID From Followers"))
-    print((k+"["+p+"3"+k+"]"+u+" Crack ID From Likes"))
-    print((k+"["+p+"4"+k+"]"+o+" Clone By Phone Number"))
-    print((k+"["+p+"5"+k+"]"+u+" Clone By Email"))
-    print((k+"["+p+"6"+k+"]"+o+" Get Data Target"))
-    print((k+"["+p+"7"+k+"]"+u+" Result Crack"))
-    print((k+"["+p+"8"+k+"]"+o+" User Agent"))
-    print((k+"["+m+"0"+k+"]"+m+" Logout"))
+    print((k+"\n["+m+"1"+k+"]"+u+" Crack ID From Public/Friends"))
+    print((k+"["+m+"2"+k+"]"+o+" Crack ID From Followers"))
+    print((k+"["+m+"3"+k+"]"+u+" Crack ID From Likes"))
+    print((k+"["+m+"4"+k+"]"+o+" Clone By Phone Number"))
+    print((k+"["+m+"5"+k+"]"+u+" Clone By Email"))
+    print((k+"["+m+"6"+k+"]"+o+" Get Data Target"))
+    print((k+"["+m+"7"+k+"]"+u+" Result Crack"))
+    print((k+"["+m+"8"+k+"]"+o+" User Agent"))
+    print((k+"["+p+"0"+k+"]"+m+" Logout"))
     choose_menu()
 
 def choose_menu():
