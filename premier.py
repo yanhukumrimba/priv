@@ -35,7 +35,7 @@ else:
 def banner():
     print("""\x1b[0;35m   ___  _                         __
   / _ \(_)__ ___ _  ___  ___  ___/ /\x1b[0;36mPREMIER
- / // / / _ `/  ' \/ _ \/ _ \/ _  /\x1b[0;36mCreated By 
+\x1b[0;35m/ // / / _ `/  ' \/ _ \/ _ \/ _  /\x1b[0;36mCreated By 
 /____/_/\_,_/_/_/_/\___/_//_/\_,_/\x1b[0;36mRamdhan R""")
 
 host="https://mbasic.facebook.com"
@@ -116,11 +116,11 @@ def gets_dict_cookies(cookies):
 def country():
     os.system("clear")
     banner()
-    print("\n%s[%s Choose Country %s]\n"%(k,p,k))
-    print("%s[%s1%s] %sIndonesia"%(k,p,k,p))
-    print("%s[%s2%s] %sBangladesh/India"%(k,p,k,p))
-    print("%s[%s3%s] %sPakistan"%(k,p,k,p))
-    print("%s[%s4%s] %sUSA"%(k,p,k,p))
+    print("\n%s[%s Choose Country %s]\n"%(u,o,u))
+    print("%s[%s1%s] %sIndonesia"%(u,o,u,o))
+    print("%s[%s2%s] %sBangladesh/India"%(u,o,u,o))
+    print("%s[%s3%s] %sPakistan"%(u,o,u,o))
+    print("%s[%s4%s] %sUSA"%(u,o,u,o))
     choose_country()
     
 def choose_country():
@@ -175,10 +175,10 @@ def choose_country():
 def logs():
   os.system("clear")
   banner()
-  print((k+"\n["+p+"1"+k+"]"+p+" Login Token"))
-  print((k+"["+p+"2"+k+"]"+p+" Login Cookies"))
-  print((k+"["+p+"0"+k+"]"+p+" Exit"))
-  sek=input(k+"\n["+p+"•"+k+"]"+p+" Choose : ")
+  print((k+"\n["+u+"1"+o+"]"+o+" Login Token"))
+  print((k+"["+u+"2"+o+"]"+o+" Login Cookies"))
+  print((k+"["+u+"0"+o+"]"+o+" Exit"))
+  sek=input(k+"\n["+u+"•"+o+"]"+p+" Choose : ")
   if sek=="":
     print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     logs()
@@ -307,21 +307,21 @@ def menu():
         negara = "USA"
     os.system("clear")
     banner()
-    print((k+"\n[ "+h+"Welcome "+a["name"]+k+" ]"+p))
-    print((k+"\n["+h+"•"+k+"]"+o+" Your ID : "+id))
-    print((k+"["+h+"•"+k+"]"+o+" Your IP : "+ip))
-    print((k+"["+h+"•"+k+"]"+o+" Status  : "+h+"Premium"+p))
-    print((k+"["+h+"•"+k+"]"+o+" Joined  : "+durasi))
-    print((k+"["+h+"•"+k+"]"+o+" Crack   : "+negara))
-    print((k+"\n["+h+"1"+k+"]"+u+" Crack ID From Public/Friends"))
-    print((k+"["+h+"2"+k+"]"+o+" Crack ID From Followers"))
-    print((k+"["+h+"3"+k+"]"+u+" Crack ID From Likes"))
-    print((k+"["+h+"4"+k+"]"+o+" Crack By Phone Number"))
-    print((k+"["+h+"5"+k+"]"+u+" Crack By Email"))
-    print((k+"["+h+"6"+k+"]"+o+" Get Data Target"))
-    print((k+"["+h+"7"+k+"]"+u+" Result Crack"))
-    print((k+"["+h+"8"+k+"]"+o+" User Agent"))
-    print((k+"["+h+"0"+k+"]"+m+" Logout"))
+    print((k+"\n[ "+o+"Welcome "+a["name"]+k+" ]"+p))
+    print((k+"\n["+o+"•"+u+"]"+o+" Your ID : "+id))
+    print((k+"["+o+"•"+u+"]"+o+" Your IP : "+ip))
+    print((k+"["+o+"•"+u+"]"+o+" Status  : "+h+"Premium"+p))
+    print((k+"["+o+"•"+u+"]"+o+" Joined  : "+durasi))
+    print((k+"["+o+"•"+u+"]"+o+" Crack   : "+negara))
+    print((k+"\n["+o+"1"+u+"]"+u+" Crack ID From Public/Friends"))
+    print((k+"["+o+"2"+u+"]"+o+" Crack ID From Followers"))
+    print((k+"["+o+"3"+u+"]"+u+" Crack ID From Likes"))
+    print((k+"["+o+"4"+u+"]"+o+" Crack By Phone Number"))
+    print((k+"["+o+"5"+u+"]"+u+" Crack By Email"))
+    print((k+"["+o+"6"+u+"]"+o+" Get Data Target"))
+    print((k+"["+o+"7"+u+"]"+u+" Result Crack"))
+    print((k+"["+o+"8"+u+"]"+o+" User Agent"))
+    print((k+"["+o+"0"+u+"]"+m+" Logout"))
     choose_menu()
 
 def choose_menu():
