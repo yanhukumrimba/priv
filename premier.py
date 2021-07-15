@@ -34,10 +34,10 @@ else:
 ### HEADERS ###
 
 def banner():
-    print("""\x1b[0;35mMulti Brute Force   ___  _                         __
-  / _ \(_)__ ___ _  ___  ___  ___/ /\x1b[0;36mRamdhan
-\x1b[0;35m/ // / / _ `/  ' \/ _ \/ _ \/ _  /\x1b[0;36mRamadhian 
-/____/_/\_,_/_/_/_/\___/_//_/\_,_/\x1b[0;36mPrivate""")
+    print("""\x1b[0;35m   ___  _                         __           Multi Brute Force
+  / _ \(_)\x1b[0;35mMulti Brute Force ___  ___/ /\x1b[0;36mPrivate
+\x1b[0;35m/ // / / _ `/  ' \/ _ \/ _ \/ _  /\x1b[0;36mCreated By 
+/____/_/\_,_/_/_/_/\___/_//_/\_,_/\x1b[0;36mRamdhan R""")
 
 host="https://mbasic.facebook.com"
 ips=None
@@ -117,7 +117,7 @@ def gets_dict_cookies(cookies):
 def country():
     os.system("clear")
     banner()
-    print("\n%s[%s Choose Country %s]\n"%(m,k,m))
+    print("\n%s[%s Choose Country %s]\n"%(m,u,m))
     print("%s[%s1%s] %sIndonesia"%(k,m,k,m))
     print("%s[%s2%s] %sBangladesh/India"%(k,m,k,k))
     print("%s[%s3%s] %sPakistan"%(k,m,k,h))
@@ -319,7 +319,7 @@ def menu():
     print((k+"["+m+"3"+k+"]"+u+" Crack ID From Likes"))
     print((k+"["+m+"4"+k+"]"+o+" Clone By Phone Number"))
     print((k+"["+m+"5"+k+"]"+u+" Clone By Email"))
-    print((k+"["+m+"6"+k+"]"+o+" Get Data Target"))
+    print((k+"["+m+"6"+k+"]"+o+" Get Data Account"))
     print((k+"["+m+"7"+k+"]"+u+" Result Crack"))
     print((k+"["+m+"8"+k+"]"+o+" User Agent"))
     print((k+"["+p+"0"+k+"]"+m+" Logout"))
