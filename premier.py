@@ -34,7 +34,7 @@ else:
 ### HEADERS ###
 
 def banner():
-    print("""\x1b[0;35m   ___  _                         __           Multi Brute Force
+    print("""\x1b[0;35m   ___  _                         __           
   / _ \(_)\x1b[0;35mMulti Brute Force ___  ___/ /\x1b[0;36mPrivate
 \x1b[0;35m/ // / / _ `/  ' \/ _ \/ _ \/ _  /\x1b[0;36mCreated By 
 /____/_/\_,_/_/_/_/\___/_//_/\_,_/\x1b[0;36mRamdhan R""")
