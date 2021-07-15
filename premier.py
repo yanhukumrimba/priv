@@ -1,4 +1,4 @@
-B#!/usr/bin/python3
+#!/usr/bin/python3
 #-*-coding:utf-8-*-
 # Created By Dapunta,Fixed By Ramdhan R
 # Cie Ada Yang Mau Recode Nih Ye
