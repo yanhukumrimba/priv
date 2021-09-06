@@ -7,4 +7,4 @@ Ke gw
 
 $ git clone https://github.com/Ramdhan7/priv
 $ cd priv
-$ python priv.py
+$ python premier.py
